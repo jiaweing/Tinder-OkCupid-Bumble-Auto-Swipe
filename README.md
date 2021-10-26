@@ -12,5 +12,5 @@ setInterval( function () { var likeBtn = document.querySelector('[aria-label="Li
 
 ### OkCupid
 ```
-setInterval( function () { var likeBtn = document.querySelector('.doubletake-like-button'); likeBtn.click() }, 100)
+setInterval( function () { var likeBtn = document.querySelector('.dt-action-buttons-button'); likeBtn.click() }, 100)
 ```
