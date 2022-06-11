@@ -14,3 +14,9 @@ setInterval( function () { var likeBtn = document.querySelector('[class="button 
 ```
 setInterval( function () { var likeBtn = document.querySelector('.dt-action-buttons-button'); likeBtn.click() }, 100)
 ```
+
+
+### Bumble
+```
+broken
+```
