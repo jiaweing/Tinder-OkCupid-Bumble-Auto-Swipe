@@ -18,5 +18,10 @@ setInterval( function () { var likeBtn = document.querySelector('.dt-action-butt
 
 ### Bumble
 ```
-broken
+const likeBtn = document.querySelector('[aria-label="Like"]')
+var event;
+likeBtn.addEventListener("click",function(e){console.log("click detected");event=e});
+const key = Object.keys(likeBtn)[0]
+function swipe() { likeBtn[key].memoizedProps.onClick(event) }
+setInterval(swipe, 150)
 ```
